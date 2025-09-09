@@ -1,14 +1,14 @@
 # Study-KiviMD-KVLang
 Nesse repositório, estudo KVLang, uma linguagem de programação, que com a biblioteca Python é possível criar aplicativos e softwares. Utilização de boas práticas, e código limpo. 
 
-#Primeiros Passos
-Etapa 1: Para utilizar o Kivi você deve abrir seu terminal, e digitar 
+# Primeiros Passos
+## Etapa 1: Para utilizar o Kivi você deve abrir seu terminal, e digitar 
 
 pip install kivy
 
 Caso o Python não esteja certo, procure a versão mais recente, também busque atualizar o pip e retome a etapa 1
 
-#Etapa 2: Criando meu primeiro software
+## Etapa 2: Criando meu primeiro software
 Após a instalação você irá criar uma pasta, dentro dela dois arquivos distintos. Por exemplo
 
 Aplicativo
@@ -65,7 +65,7 @@ Podemos observar que cada função de Layout do Python foi chamada da mesma form
 
 #Outras funcionalidades
 
-##Posicionamento e dimensão
+## Posicionamento e dimensão
 A visualização precisa ser de um plano carteziano, onde o eixo X é a linha horizontal e o eixo Y é a linha vertical, sendo assim, conseguimos utilizar o pos_hint para dar as coordenadas da seguinte maneira: 
 
 pos_hint: {"center_x":0.5, "center_y":0.5}
@@ -78,7 +78,7 @@ Os valores do size_hint são decimais, então, 0.5 equivale a 50% da tela.
 
 O kivy possui FloatLayout, BoxLayout
 
-##Layouts
+## Layouts
 
 Existem quatro formas de Layout, que é a BoxLayout, FloatLayout, StackLayout e a GridLayout
 
@@ -87,7 +87,7 @@ Existem quatro formas de Layout, que é a BoxLayout, FloatLayout, StackLayout e 
 - StackLayout forma pilhas, linhas a linha ou coluna em coluna
 - GridLayout organiza através de linhas e colunas que os widgets se preenchem automáticamente
 
-##Widgets
+## Widgets
 
 Existem muitos tipos de widgets, mas os mais comuns são as Labels, Button, TextInput. A declaração de todos pode ser vista nos primeiros passos na etapa 2. 
 
